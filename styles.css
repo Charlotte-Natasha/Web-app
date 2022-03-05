@@ -12,5 +12,6 @@ body {
 }
 
 .container {
-  line-height: 5px;
+  max-width: 500pxs;
+  margin: 10vh auto 0 auto;
 }
