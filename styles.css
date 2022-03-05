@@ -10,3 +10,7 @@ body {
     rgba(0, 212, 255, 1) 100%
   );
 }
+
+.container {
+  line-height: 5px;
+}
