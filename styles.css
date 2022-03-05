@@ -17,4 +17,13 @@ body {
   align-items: center;
 }
 .container {
+  max-width: 700px;
+  width: 100%;
+  background: rgb(0, 212, 255);
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+.container #display {
+  font-size: 25px;
+  font-weight: 500;
 }

@@ -15,13 +15,15 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">Find your Akan name</div>
+      <div id="display">Find your Akan name</div>
       <form id="details">
         <input type="date" value="2022-03-05" id="date" />
-        <label for="female">Female</label>
-        <input type="radio" name="gender" value="Female" />
-        <label for="male">Male</label>
-        <input type="radio" name="gender" value="Male" />
+        <div class="col-6">
+          <label for="female">Female</label>
+          <input type="radio" name="gender" value="Female" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" value="Male" />
+        </div>
         <button id="btn">Submit</button>
       </form>
       <div id="select"></div>
