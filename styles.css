@@ -7,11 +7,20 @@ body {
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
+    rgb(0, 212, 255) 100%
   );
 }
 
-.container {
-  max-width: 500pxs;
-  margin: 10vh auto 0 auto;
+#display {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 30px;
+}
+#btn {
+  background-color: rgb(0, 212, 255);
+
+  font-size: 16px;
+  text-align: center;
 }
