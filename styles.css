@@ -10,17 +10,11 @@ body {
     rgb(0, 212, 255) 100%
   );
 }
-
-#display {
-  text-align: right;
-  height: 70px;
-  line-height: 70px;
-  padding: 16px 8px;
-  font-size: 30px;
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
-#btn {
-  background-color: rgb(0, 212, 255);
-
-  font-size: 16px;
-  text-align: center;
+.container {
 }
