@@ -16,19 +16,16 @@
   <body>
     <div class="container">
       <div class="row"></div>
-      <input
-        class="date-input"
-        type="date"
-        placeholder="Enter your Birthday"
-        id="date-input"
-      />
-      <div class="gender">
+      <form id="details">
+        <input type="date" value="2022-03-05" id="date" />
+
         <label for="female">Female</label>
-        <input type="radio" name="gender" value="Female" />
+        <input type="radio" name="gender" value="female" />
         <label for="male">Male</label>
-        <input type="radio" name="gender" value="Male" />
-      </div>
-      <button id="btn">Submit</button>
+        <input type="radio" name="gender" value="male" />
+
+        <button id="btn">Submit</button>
+      </form>
     </div>
     <script src="index.js"></script>
   </body>
