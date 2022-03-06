@@ -1,7 +1,4 @@
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -10,25 +7,16 @@ body {
     rgb(0, 212, 255) 100%
   );
 }
-.container{
-  width: 100%;
-  height: 100vh;
-  display: flex;
+.container {
+  width: 320px;
+  height: 420px;
+  padding: 2px 16px;
   text-align: center;
-  justify-content: center;
+  display: flex;
 }
-
-
-
-/*.container {
-  max-width: 700px;
-  background: rgb(0, 212, 255);
-  padding: 20px 30px;
-  border-radius: 80px;
-  box-shadow: 0px 0px 40px 15px rgb(74, 162, 182);
-  line-height: 70px;
-}
-.container #display {
-  font-size: 35px;
-  font-weight: 500;
+.container .card {
+  box-shadow: 0 4px 8px 0 rgb(112, 153, 161);
+  transition: 0.6;
+  transform-style: preserve-3d;
+  border-radius: 70px;
 }
